@@ -1,0 +1,12 @@
+wave_equation_solver/
+├── include/                # Header files
+│   ├── grid.h             # Grid class definition (spatial discretization)
+│   ├── parameters.h       # Parameters class definition (simulation settings)
+│   └── boundary_conditions.h  # Boundary conditions interface and implementations
+├── src/                   # Source code files
+│   ├── main.cpp           # Main program, driver for the solver
+│   ├── grid.cpp           # Grid class implementation
+│   ├── parameters.cpp     # Parameters class implementation
+│   ├── boundary_conditions.cpp  # Boundary conditions implementation (Dirichlet and Neumann)
+│   └── time_stepping_solver.cpp  # Time-stepping algorithm implementation
+└── Makefile               # Build script to compile the project
